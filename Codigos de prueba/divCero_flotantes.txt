@@ -1,0 +1,39 @@
+FLOAT a,b;
+
+
+
+//Probando la division//
+
+
+
+a=400.0;
+
+b=10.0;
+
+
+a = a/b;
+
+
+
+IF (a==40.0) THEN	
+	
+PRINT ('A vale 40.0');
+
+ELSE
+
+	PRINT ('La division anda mal');
+
+
+
+//Probando dividir por cero//
+
+
+
+a=5.0;
+
+b=TOFLOAT(0_i);
+
+
+a = a/b;
+			
+

@@ -1,0 +1,20 @@
+FLOAT a;
+
+
+
+a=5.0 * 8.0;
+
+
+
+IF (a==40.0) THEN
+
+	PRINT ('A vale 40.0');
+
+ELSE
+
+	PRINT ('La multiplicacion anda mal');
+
+
+
+
+a=3.e38 * 1.5; //overflow//

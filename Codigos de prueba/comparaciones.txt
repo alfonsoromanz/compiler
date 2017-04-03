@@ -1,0 +1,66 @@
+FLOAT a,b;
+
+
+b=10.0;
+
+a=6.0;
+
+
+
+IF (a<b) THEN
+    
+	PRINT ('A es menor a B');
+
+ELSE
+    
+	PRINT ('ERROR');
+
+
+
+IF (a==b) THEN 
+	
+PRINT ('ERROR');
+
+ELSE 
+	
+PRINT ('A no es igual a B');
+
+
+
+IF (a>b) THEN
+	
+PRINT ('ERROR');
+
+ELSE
+	
+PRINT ('A no es mayor a B');
+
+
+
+IF (a<=b) THEN
+	
+PRINT ('A es menor o igual a B');
+
+ELSE
+	
+PRINT ('ERROR');
+
+
+
+IF (a>=b) THEN 
+
+	PRINT ('ERROR');
+
+ELSE
+
+	PRINT ('A no es mayor o igual que B');
+
+
+
+IF (a<>b) THEN 
+	
+PRINT ('A es distinto de B');
+
+ELSE	
+	
+PRINT ('ERROR');

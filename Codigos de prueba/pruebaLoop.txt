@@ -1,0 +1,72 @@
+
+FLOAT a,b;
+
+
+a=1.0;
+
+b=5.0;
+
+
+
+PRINT ('Prueba con numeros flotantes');
+
+
+PRINT ('Ahora a=1.0 y b=5.0. Se va a sumar 1 hasta que sean iguales (4 veces deberia ser)');
+
+
+
+LOOP BEGIN
+    
+	PRINT ('a es menor a b. Se suma 1');
+    
+	a=a+1.0;
+
+END; UNTIL (a>=b);
+
+
+
+IF (a==b) THEN
+    
+	PRINT ('Ahora son iguales');
+
+
+
+//Ahora con numeros enteros//
+
+
+
+{
+    
+	INT a,b;
+    
+	a=1_i;
+    
+	b=5_i;
+
+    
+
+	PRINT ('Misma prueba, pero con enteros');
+    
+	
+	PRINT ('Ahora a=1 y b=5. Se va a sumar 1 hasta que sean iguales (4 veces deberia ser)');
+
+ 
+   
+	LOOP BEGIN
+    
+		PRINT ('a es menor a b. Se suma 1');
+    
+		a=a+1_i;
+    
+	END; UNTIL (a>=b);
+
+    
+
+	IF (a==b) THEN
+        
+		PRINT ('Ahora son iguales');
+
+
+}
+
+PRINT ('Fin de la prueba');

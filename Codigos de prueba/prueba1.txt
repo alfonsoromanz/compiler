@@ -1,0 +1,130 @@
+INT a,b,c;
+
+FLOAT d,e,f;
+
+
+
+a=3_i;
+
+b=4_i;
+
+c=5_i;
+
+
+
+d = 3.0;
+
+e = 4.0;
+
+f = 5.0;
+
+
+
+IF (TOFLOAT(c * 20_i) == 500.0 / f) THEN
+    
+	PRINT ('BIEN');
+
+ELSE
+    
+	PRINT ('MAL');
+
+
+
+IF (TOFLOAT(a)==d) THEN
+    
+	PRINT ('BIEN');
+
+ELSE
+    
+	PRINT ('MAL');
+
+
+
+IF (TOFLOAT(a) + TOFLOAT(b) > e * 2.0) THEN
+    
+	PRINT ('MAL');
+
+ELSE
+    
+	PRINT ('BIEN');
+
+
+
+{
+    
+	INT a;
+    
+	a=20_i;
+  
+  
+	{
+        
+		INT z;
+        
+		GLOBAL z;
+        
+		z=c;
+    
+	}
+
+    
+	{
+        
+		IF (a>b) THEN
+            
+			PRINT ('BIEN');
+        
+		ELSE
+            
+			PRINT ('MAL');
+    
+	}
+
+}
+
+
+
+IF (a==3_i) THEN
+    
+	IF (z<>5_i) THEN
+        
+		PRINT ('MAL');
+    
+	ELSE
+        
+		PRINT ('BIEN. a=3 y z=5');
+
+ELSE
+    
+	PRINT ('MAL');
+
+
+
+
+
+a=5_i;
+
+
+IF (a - -10_i == 15_i) THEN
+    
+	PRINT ('BIEN');
+
+ELSE
+    
+	PRINT ('MAL');
+
+
+
+b=a;
+
+
+
+IF (a==5_i) THEN
+    
+	IF (b==5_i) THEN
+        
+		IF (a==b) THEN
+            
+			PRINT ('BIEN');
+
+

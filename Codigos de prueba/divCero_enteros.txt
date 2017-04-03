@@ -1,0 +1,40 @@
+INT a,b;
+
+
+
+//Probando la division//
+
+
+
+a=400_i;
+
+b=10_i;
+
+
+a = a/b;
+
+
+
+IF (a==40_i) THEN
+	
+PRINT ('A vale 40');
+
+ELSE
+	
+PRINT ('La division anda mal');
+
+
+
+//Probando dividir por cero//
+
+
+
+a=5_i;
+
+b=0_i;
+
+
+
+a = a/b;
+			
+

@@ -1,0 +1,19 @@
+INT a;
+
+
+
+a=2_i*20_i;
+
+
+
+IF (a==40_i) THEN
+
+	PRINT ('A vale 40');
+
+ELSE
+
+	PRINT ('La multiplicacion anda mal');
+
+
+
+a=3_i* 16000_i; //genera OF//

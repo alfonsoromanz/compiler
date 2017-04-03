@@ -1,0 +1,53 @@
+
+
+{
+
+    
+	{
+
+        
+		{
+            
+			INT e;
+            
+			GLOBAL e;
+            
+			e=0_i;
+        
+		}
+
+        
+
+		e=10_i; //se tiene acceso gracias al GLOBAL. Se modifica la global//
+
+  
+      
+		{
+            
+			INT e;
+        
+    
+			{
+                
+				e=15_i; //la global NO se modifica//
+   
+         
+			}
+        
+
+		}
+
+	
+
+	}
+
+
+
+
+}
+
+
+
+IF (e==10_i) THEN
+    
+	PRINT ('e vale 10');
