@@ -4,6 +4,7 @@
 #include "EntradaTS.h"
 #include <QMap>
 #include <QVector>
+#include <list>
 
 class TablaDeSimbolos
 {
@@ -22,14 +23,14 @@ public:
     void eliminar(QString lexema);
 
     /*Para imprimir por pantalla */
-    list<QString> imprimir();
+    std::list<QString> imprimir();
 
 private:
     QMap<QString, EntradaTS*> entradas;
     QVector<QString> indice;
 
     /*Para imprimir*/
-    list<QString> entradasParaImprimir;
+    std::list<QString> entradasParaImprimir;
 };
 
 #endif // TABLADESIMBOLOS_H

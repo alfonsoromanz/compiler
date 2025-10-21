@@ -1,3 +1,14 @@
+%{
+#include <QString>
+#define YYSTYPE QString
+#define notificar(msg) this->notificar(msg)
+#define addRegla(msg) this->addRegla(msg)
+#define declararVariable(var, tipo) this->declararVariable(var, tipo)
+#define hacerGlobal(var) this->hacerGlobal(var)
+#define tipo this->tipo
+#define codGen this->codGen
+%}
+
 %token IF THEN ELSE ENDIF PRINT INT BEGIN END FLOAT GLOBAL LOOP UNTIL TOFLOAT ID CTE MENORIGUAL MAYORIGUAL IGUALIGUAL DISTINTO CADENA
 %right THEN ELSE IF
 %left '+' '-'

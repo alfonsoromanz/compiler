@@ -77,7 +77,7 @@ const char * rutaSalida (const char * ruta) {
 /** Programa principal **/
 
 
-int main(int argc, char *argv[])
+int main(int /*argc*/, char *argv[])
 {
 
     AnalizadorLexico * lex = new AnalizadorLexico (argv[1], &warnings, &errores, &tablaDeSimbolos);
@@ -109,9 +109,9 @@ int main(int argc, char *argv[])
         cout << "No se genero codigo assembler.\n";
     } else {
         codGen.imprimirTercetos();
-        codGen.generarAssembler(rutaSalida(argv[1]));
+        codGen.generarAssembler("assembler.asm");
         cout << "\n\n\nEl programa ha sido escrito correctamente. \n";
-        cout << "Codigo assembler almacenado en: " << rutaSalida(argv[1]) << endl;
+        cout << "Codigo assembler almacenado en: assembler.asm" << endl;
     }
 
     cout << "\n\nDisenio de Compiladores. TP 3,4 \nAlumnos: \n  Roman y Zubeldia, Alfonso \n  Rios, Bruno.\n\n";

@@ -5,7 +5,7 @@
 #include <iostream>
 #include <math.h>
 #include <list>
-#include <Qlist>
+#include <QList>
 #include <QMap>
 #include <QString>
 #include "EntradaTS.h"
